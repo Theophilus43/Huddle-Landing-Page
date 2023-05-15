@@ -1,3 +1,12 @@
+:root{
+    --Pink: hsl(322, 100%, 66%);
+
+
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,17 +20,184 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 1em;
+    margin: 0 .2em 1em .2em;
+    padding: 2em 1em 4em 1em;
 }
+
+
 
 
 /* images  */
 .huddle{
-    width: 120px;
-    height: 18px
+    width: 100px;
+    padding-top: .2em;
+   
 }
 
 .device{
     width: 80%;
+    max-width: 850px;
+    padding-bottom: 2em;
+}
 
+.grow{
+    width: 80%;
+    max-width: 850px;
+}
+
+.flowing{
+    width: 80%;
+    max-width: 850px; 
+}
+
+.user{
+    width: 80%;
+    max-width: 850px;
+}
+
+/* divs */
+
+.first-logo{
+    text-align: center;
+    background-color: var(--Very-Pale-Cyan);
+    background-image: url(../images/bg-hero-mobile.svg);
+}
+
+.first-logo h2 {
+    width: 70%;
+    margin: 0 auto 1em auto;
+}
+
+.first-logo h4 {
+    width: 80%;
+    margin: 0 auto 3em auto;
+    line-height: 1.5em;
+}
+
+.second-logo{
+    text-align: center;
+    border-radius: 8px;
+    margin: 3.5em 1.5em 2em 1.5em;
+    padding: 3.5em 0 2em 0;
+    box-shadow: 0 2px 12px 0 rgb(161, 161, 161);
+
+}
+
+.second-logo p {
+    width: 80%;
+    margin: 1em auto 1em auto;
+}
+.second-logo h2 {
+    margin: 2em 0 0 0;
+}
+
+
+.third-logo{
+    text-align: center;
+    border-radius: 8px;
+    margin: 3.5em 1.5em 2em 1.5em;
+    padding: 3.5em 0 2em 0;
+    box-shadow: 0 2px 12px 0 rgb(161, 161, 161);
+}
+
+.third-logo p {
+    width: 80%;
+    margin: 1em auto 1em auto;
+}
+.third-logo h2 {
+    margin: 2em 0 0 0;
+}
+
+
+.fourth-logo{
+    text-align: center;
+    border-radius: 8px;
+    margin: 3.5em 1.5em 2em 1.5em;
+    padding: 3.5em 0 2em 0;
+    box-shadow: 0 2px 12px 0 rgb(161, 161, 161);
+}
+
+.fourth-logo p {
+    width: 80%;
+    margin: 1em auto 1em auto;
+}
+.fourth-logo h2 {
+    margin: 2em 0 0 0;
+}
+
+.small-logo{
+    text-align: center;
+    border-radius: 8px;
+    margin: 2em 1em 0 1em;
+    padding: 2em 0 2em 0;
+    box-shadow: 0 2px 12px 0 rgb(161, 161, 161);
+    position: relative;
+    top: 4em;
+    background-color: white;
+  
+}
+
+.small-logo h2{
+    font-size: 21px;
+    margin-bottom: 1em;
+}
+
+.last-logo{
+    background-color: var(--Very-Dark-Cyan);
+    color: white;
+    padding: 8em 0 1em 1em;
+}
+
+.last-logo p{
+     width: 80%;
+}
+
+span{
+    padding-right: 1em;
+}
+
+.last-logo path{
+    fill: #f8f8f8;
+}
+
+.select{
+    padding-top: 1em;
+    display: flex;
+}
+
+
+
+/* buttons */
+
+.first-button{
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+    background-color: white;
+    padding: .5em 2em;
+    box-shadow: 0 2px 20px 0 rgb(124, 124, 124); 
+}
+
+.second-button{
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--Pink);
+    color: white;
+    padding: 1em 4.6em;
+    margin-bottom: 4em;
+} 
+
+.third-button{
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--Pink);
+    color: white;
+    padding: 1em 3.5em;
+    margin-bottom: .6em;
+    box-shadow: 0 1px 14px 0 rgb(209, 209, 218);
 }
