@@ -7,6 +7,11 @@
     --Grayish-Blue: hsl(208, 11%, 55%);
 }
 
+/* font-family: 'Open Sans', sans-serif;
+ */
+
+ /* font-family: 'Poppins', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +20,34 @@
 
 body{
     height: 100vh;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--Very-Dark-Cyan);
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    padding: .5em 0;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: var(--Grayish-Blue);
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
 }
 
 .header{
@@ -138,6 +171,7 @@ body{
 }
 
 .small-logo h2{
+    font-family: 'Poppins', sans-serif;
     font-size: 21px;
     margin-bottom: 1em;
 }
@@ -165,6 +199,33 @@ span{
     display: flex;
 }
 
+.select p {
+    color: #f8f8f8;
+    padding-left: 1.4em;
+}
+
+.s-select{
+    padding-top: 1em;
+    display: flex;
+}
+
+.s-select p {
+    color: #f8f8f8;
+    padding-left: 1em;
+}
+
+.p-select{
+    padding: 1em 0 3em 0;
+    display: flex;
+}
+
+.p-select p {
+    color: #f8f8f8;
+    padding-left: 1em;
+}
+
+
+
 
 
 /* buttons */
@@ -173,31 +234,43 @@ span{
     cursor: pointer;
     text-decoration: none;
     border: 0;
-    border-radius: 14px;
+    border-radius: 16px;
     background-color: white;
     padding: .5em 2em;
     box-shadow: 0 2px 20px 0 rgb(124, 124, 124); 
+    color: var(--Very-Dark-Cyan);
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif
 }
 
 .second-button{
     cursor: pointer;
     text-decoration: none;
     border: 0;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: var(--Pink);
     color: white;
-    padding: 1em 4.6em;
+    padding: 1.3em 4.6em;
     margin-bottom: 4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 } 
 
 .third-button{
     cursor: pointer;
     text-decoration: none;
     border: 0;
-    border-radius: 20px;
+    border-radius: 23px;
     background-color: var(--Pink);
     color: white;
     padding: 1em 3.5em;
     margin-bottom: .6em;
     box-shadow: 0 1px 14px 0 rgb(209, 209, 218);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
