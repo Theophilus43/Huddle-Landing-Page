@@ -1,5 +1,6 @@
 :root{
     --Pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(322, 78%, 73%);
 
 
     --Very-Pale-Cyan: hsl(193, 100%, 96%);
@@ -53,8 +54,9 @@ p{
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 0 .2em 1em .2em;
+    margin: 0 .2em 0 .2em;
     padding: 2em 1em 4em 1em;
+    background-color: var(--Very-Pale-Cyan);
 }
 
 
@@ -87,6 +89,7 @@ p{
     width: 80%;
     max-width: 850px;
 }
+
 
 /* divs */
 
@@ -244,6 +247,10 @@ span{
     font-family: 'Poppins', sans-serif
 }
 
+.first-button:is(:hover, :focus) {
+   color: var(--Grayish-Blue);  
+}
+
 .second-button{
     cursor: pointer;
     text-decoration: none;
@@ -258,6 +265,10 @@ span{
     font-size: 14px;
     letter-spacing: 1.5px;
 } 
+
+.second-button:is(:hover, :focus) {
+    background-color: var(--light-pink);  
+ }
 
 .third-button{
     cursor: pointer;
@@ -274,3 +285,15 @@ span{
     font-size: 14px;
     letter-spacing: 1.5px;
 }
+
+.third-button:is(:hover, :focus) {
+    background-color: var(--light-pink);  
+ }
+
+ @media (min-width: 768px) {
+    .first-logo{
+        display: flex;
+    }
+
+    
+ }
