@@ -164,13 +164,14 @@ p{
 .small-logo{
     text-align: center;
     border-radius: 8px;
-    margin: 2em 1em 0 1em;
+    margin: 0 auto;
     padding: 2em 0 2em 0;
     box-shadow: 0 2px 12px 0 rgb(161, 161, 161);
     position: relative;
     top: 4em;
     background-color: white;
-  
+    max-width: 500px;
+    width: 82%;
 }
 
 .small-logo h2{
@@ -295,5 +296,124 @@ span{
         display: flex;
     }
 
-    
+    .first-logo h2 {
+        margin-left: 1.5em;
+    }
+
+    .first-logo h4 {
+        margin-left: 2.5em;
+    }
+
+    .second-button{
+        margin-left: 3.5em;
+    }
+
+    .content{
+        width:50%;
+        text-align: left;
+    }
+
+    .device{
+        width: 50%;
+        max-width: 500px;
+        margin: 0 0 0 6em;
+    }
+
+    .first-button{
+        margin-right: 3em;
+    }
+
+    .huddle{
+        margin-left: 1.5em;
+    }
+
+    .second-logo{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .second-logo h2{
+        margin: 1em auto 0 auto;
+        width: 80%;
+    }
+
+    .second-content{
+        margin-top: 2em;
+        width: 50%;
+        text-align: left;
+    }
+
+    .grow{
+        width: 350px;
+        margin-right: 3em
+    }
+
+    .third-logo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .third-logo h2{
+        margin: 1em auto 0 auto;
+        width: 80%;
+    }
+
+    .third-content{
+        text-align: left;
+        margin-top: 2em;
+        width: 50%;
+    }
+
+    .flowing{
+        width: 350px;
+        margin-left: 3em
+    }
+
+    .fourth-logo{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .fourth-logo h2{
+        margin: 1em auto 0 auto;
+        width: 80%;
+    }
+
+    .fourth-content{
+        margin-top: 2em;
+        width: 50%;
+        text-align: left;
+    }
+
+    .user{
+        width: 350px;
+        margin-right: 3em
+    }
+
+    .small-logo{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .last-logo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .between{
+        width: 70%;
+        padding-left: 3em;
+    }
+
+    .about{
+        width: 50%;
+        padding-left: 6em;
+    }
+
+    .career{
+        width: 50%;
+        padding-left: 6em;
+    }
  }
